@@ -1,0 +1,1 @@
+# ts-indirect-type-reference-bug
