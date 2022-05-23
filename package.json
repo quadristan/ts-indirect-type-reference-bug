@@ -1,0 +1,20 @@
+{
+  "name": "ts-indirect-type-reference-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quadristan/ts-indirect-type-reference-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quadristan/ts-indirect-type-reference-bug/issues"
+  },
+  "homepage": "https://github.com/quadristan/ts-indirect-type-reference-bug#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}

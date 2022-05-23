@@ -1,0 +1,13 @@
+{
+  "name": "types",
+  "version": "1.0.0",
+  "description": "",
+  "module": "index.js",
+  "scripts": {
+    "build": "tsc --outDir lib"
+  },
+  "types": "./lib/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,32 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers:
+      typescript: ^4.6.4
+    dependencies:
+      typescript: 4.6.4
+
+  packages/consumer:
+    specifiers:
+      middle: workspace:*
+    dependencies:
+      middle: link:../middle
+
+  packages/middle:
+    specifiers:
+      types: workspace:*
+    dependencies:
+      types: link:../types
+
+  packages/types:
+    specifiers: {}
+
+packages:
+
+  /typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
