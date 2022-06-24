@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "middle": "workspace:*"
+  },
+  "devDependencies": {
+    "types": "workspace:^1.0.0"
   }
 }

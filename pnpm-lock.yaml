@@ -11,8 +11,11 @@ importers:
   packages/consumer:
     specifiers:
       middle: workspace:*
+      types: workspace:^1.0.0
     dependencies:
       middle: link:../middle
+    devDependencies:
+      types: link:../types
 
   packages/middle:
     specifiers:
